@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]>      <html class="no-js"> <!--<![endif]-->
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title>
+           about
+        </title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link rel="stylesheet" href="index.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.1.1/css/fontawesome.min.css" integrity="sha384-zIaWifL2YFF1qaDiAo0JFgsmasocJ/rqu7LKYH8CoBEXqGbb9eO+Xi3s6fQhgFWM" crossorigin="anonymous">
+    </head>
+    <body>
+
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="https://www.amity.edu/images/logo.png"/></a>
+                <div class="nav-link" id="navLinks">
+                    <i class="fa-solid fa-xmark fa " onclick="hideMenu()"></i>
+                    <ul> 
+                        <li> <a href="">HOME</a> </li>
+                        <li> <a href="">ABOUT</a> </li>
+                        <li> <a href="">COURSE</a> </li>
+                        <li> <a href="">BLOG</a> </li>
+                        <li> <a href="">CONTACT</a> </li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars fa" onclick="showMenu()"></i>
+            </nav>
+            <h1>About Us</h1>
+        </section>
+        <section class="about-us">
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are the worlds largest university</h1>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Aspernatur molestias vero voluptatum tempora, saepe magnam. Fuga, expedita quaerat ea, ipsa cum molestias alias et, tempore fugiat facere quos ipsum! Molestias.</p>
+                    <a href="" class="button colo">Explore Now</a>
+                </div>
+                <div class="about-col">
+                    <img src="about.jpg" alt="">
+                </div>
+            </div>
+        </section>
+
+        <section class="footer">
+            <h4>About Us</h4>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eum ipsa illo quos veritatis provident mollitia sequi? Porro neque cum voluptates. Explicabo dignissimos in earum doloribus temporibus corrupti id alias facilis.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook-square h"></i>            
+                <i class="fa-brands fa-twitter h"></i>
+                <i class="fa-brands fa-linkedin h"></i>
+                <i class="fa-brands fa-instagram-square h"></i>
+            </div>
+        </section>
+
+        <script>
+            var navLink=document.getElementById('navLinks');
+            function showMenu(){
+                navLink.style.right="0px";
+                console.log("hii");
+            }
+            function hideMenu(){
+                navLink.style.right="-200px";
+                console.log("hii");
+            }
+        </script>
+    </body>
+</html> 
